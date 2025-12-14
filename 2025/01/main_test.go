@@ -46,7 +46,7 @@ func TestDialPassword(t *testing.T) {
 		current, want int
 		part1         bool
 	}{
-		// {day1Input, 50, 3, true},
+		{day1Input, 50, 3, true},
 		{day1Input, 50, 6, false},
 	}
 
